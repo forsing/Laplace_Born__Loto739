@@ -13,9 +13,9 @@ from scipy.sparse import csr_matrix
 
 
 CSV_PATH = Path(
-    "/Users/4c/Desktop/GHQ/data/loto7_4698_k80.csv"
-    # "/Users/4c/Desktop/GHQ/data/loto7_4698_k80_loto_2971.csv"
-    # "/Users/4c/Desktop/GHQ/data/loto7_4698_k80_loto_plus_1727.csv"
+    "data/loto7_4698_k80.csv"
+    # "/data/loto7_4698_k80_loto_2971.csv"
+    # "/data/loto7_4698_k80_loto_plus_1727.csv"
 )
 
 N = 39
@@ -516,7 +516,7 @@ if __name__ == "__main__":
 
 """
 Laplace-Born Loto 7/39 — v1
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4698_k80.csv; izvlačenja: 4698
+CSV: /data/loto7_4698_k80.csv; izvlačenja: 4698
 Prvi red najstariji; poslednji najnoviji.
 Obuka: 3758; hronološka provera: 940
 Stanja=1, regularizacija=0.02, log P=-16.571142863, konvergirao
@@ -529,7 +529,7 @@ Završni model: 1 stanja; regularizacija=0.2; svih 4698 izvlačenja.
 Verovatnoće sledećeg stanja: 1.000000
 Pregled svih 15380937 kombinacija...
 
-NEXT: 8 23 26 28 33 34 35
+NEXT: 8 x 26 y 33 z 35
 Verovatnoća po modelu: 8.55019348651e-08
 
 
@@ -537,7 +537,7 @@ Verovatnoća po modelu: 8.55019348651e-08
 
 
 Laplace-Born Loto 7/39 — v1
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4698_k80_loto_2971.csv; izvlačenja: 2971
+CSV: /data/loto7_4698_k80_loto_2971.csv; izvlačenja: 2971
 Prvi red najstariji; poslednji najnoviji.
 Obuka: 2376; hronološka provera: 595
 Stanja=1, regularizacija=0.02, log P=-16.573649630, konvergirao
@@ -550,7 +550,7 @@ Završni model: 1 stanja; regularizacija=0.2; svih 2971 izvlačenja.
 Verovatnoće sledećeg stanja: 1.000000
 Pregled svih 15380937 kombinacija...
 
-NEXT: 5 8 11 16 23 28 33
+NEXT: 5 x 11 y 23 z 33
 Verovatnoća po modelu: 9.60381768448e-08
 
 
@@ -558,7 +558,7 @@ Verovatnoća po modelu: 9.60381768448e-08
 
 
 Laplace-Born Loto 7/39 — v1
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4698_k80_loto_plus_1727.csv; izvlačenja: 1727
+CSV: /data/loto7_4698_k80_loto_plus_1727.csv; izvlačenja: 1727
 Prvi red najstariji; poslednji najnoviji.
 Obuka: 1381; hronološka provera: 346
 Stanja=1, regularizacija=0.02, log P=-16.592125652, konvergirao
@@ -571,7 +571,7 @@ Završni model: 1 stanja; regularizacija=0.2; svih 1727 izvlačenja.
 Verovatnoće sledećeg stanja: 1.000000
 Pregled svih 15380937 kombinacija...
 
-NEXT: 8 11 23 27 31 35 37
+NEXT: 8 x 23 y 31 z 37
 Verovatnoća po modelu: 1.11039263263e-07
 """
 
